@@ -1,0 +1,137 @@
+<html>
+  <head>
+    <title>Rainbow Code</title>
+    <script>
+      var colors = [{n:'Almond',c:'#EED9C4'},{n:'Apricot',c:'#FDD5B1'},{n:'Aqua',c:'#00FFFF'},{n:'Aquamarine',c:'#95E0E8'},{n:'Asparagus',c:'#7BA05B'},{n:'Auburn',c:'#A52A2A'},{n:'Aureolin',c:'#FDEE00'},{n:'Azure',c:'#007FFF'},{n:'Bittersweet',c:'#FE6F5E'},{n:'Black',c:'#000000'},{n:'Blue',c:'#0066FF'},{n:'Bronze',c:'#CD7F32'},{n:'Brown',c:'#AF593E'},{n:'Canary',c:'#FFFF99'},{n:'Cardinal',c:'#C41E3A'},{n:'Carmine',c:'#E62E6B'},{n:'Celadon',c:'#ACE1AF'},{n:'Cerise',c:'#DA3287'},{n:'Cerulean',c:'#02A4D3'},{n:'Charcoal',c:'#736A62'},{n:'Chartreuse',c:'#DFFF00'},{n:'Chocolate',c:'#7B3F00'},{n:'Cinnabar',c:'#E34234'},{n:'Claret',c:'#7F1734'},{n:'Coffee',c:'#6F4E37'},{n:'Copper',c:'#DA8A67'},{n:'Cornflower',c:'#93CCEA'},{n:'Cyan',c:'#00FFFF'},{n:'Dandelion',c:'#FED85D'},{n:'Denim',c:'#1560BD'},{n:'Drab',c:'#6C541E'},{n:'Ebony',c:'#555D50'},{n:'Ecru',c:'#C2B280'},{n:'Eggplant',c:'#614051'},{n:'Emerald',c:'#50C878'},{n:'Fern',c:'#63B76C'},{n:'Fuchsia',c:'#C154C1'},{n:'Gold',c:'#92926E'},{n:'Goldenrod',c:'#FCD667'},{n:'Green',c:'#3AA655'},{n:'Grey',c:'#8B8680'},{n:'Gunmetal',c:'#536267'},{n:'Indigo',c:'#4F69C6'},{n:'Jade',c:'#00FF00'},{n:'Lavender ',c:'#BF8FCC'},{n:'Lilac',c:'#C8A2C8'},{n:'Magenta',c:'#F653A6'},{n:'Mahogany',c:'#CA3435'},{n:'Maize',c:'#F2C649'},{n:'Marigold',c:'#EAA221'},{n:'Maroon',c:'#C32148'},{n:'Mauve',c:'#F091A9'},{n:'Melon',c:'#FEBAAD'},{n:'Mint',c:'#3EB489'},{n:'Mulberry',c:'#C8509B'},{n:'Mustard',c:'#FFDB58'},{n:'Navy',c:'#000080'},{n:'Ochre',c:'#CC7722'},{n:'Olive',c:'#808000'},{n:'Onyx',c:'#353839'},{n:'Orange',c:'#FF8833'},{n:'Orchid',c:'#E29CD2'},{n:'Peach',c:'#FFCBA4'},{n:'Periwinkle',c:'#C3CDE6'},{n:'Persimmon',c:'#EC5800'},{n:'Pink',c:'#FFC0CB'},{n:'Plum',c:'#8E3179'},{n:'Purple',c:'#7851A9'},{n:'Razzmatazz',c:'#E3256B'},{n:'Red',c:'#ED0A3F'},{n:'Rose',c:'#FF007F'},{n:'Ruby',c:'#E0115F'},{n:'Russet',c:'#80461B'},{n:'Saffron',c:'#F4C430'},{n:'Sage',c:'#BCB88A'},{n:'Salmon',c:'#FF91A4'},{n:'Sapphire',c:'#0F52BA'},{n:'Scarlet',c:'#FD0E35'},{n:'Sepia',c:'#9E5B40'},{n:'Sepia',c:'#704214'},{n:'Shadow',c:'#837050'},{n:'Shamrock',c:'#33CC99'},{n:'Sienna',c:'#882D17'},{n:'Silver',c:'#C9C0BB'},{n:'Tan',c:'#D99A6C'},{n:'Tangerine',c:'#F28500'},{n:'Teal',c:'#008080'},{n:'Thistle',c:'#EBB0D7'},{n:'Tumbleweed',c:'#DEA681'},{n:'Turquoise',c:'#40E0D0'},{n:'Ultramarine',c:'#3F00FF'},{n:'Umber',c:'#635147'},{n:'Vanilla',c:'#F3E5AB'},{n:'Verdigris',c:'#43b3ae'},{n:'Vermilion',c:'#E34234'},{n:'Violet',c:'#8359A3'},{n:'Viridian',c:'#40826D'},{n:'White',c:'#FFFFFF'},{n:'Wisteria',c:'#C9A0DC'},{n:'Yellow',c:'#FBE870'}]
+      var nouns = ['aid','abbey','ability','absence','abuse','accent','acceptance','access','accident','accommodation','account','accountant','accuracy','achievement','acid','acquisition','Acre','act','action','activity','actor','addition','address','adjustment','administration','admission','adult','advance','advantage','adventure','advertisement','advice','adviser','affair','afternoon','age','agency','agenda','agent','agreement','Agriculture','aid','aim','air','aircraft','airline','airport','alarm','album','alcohol','allegation','alliance','allocation','allowance','ally','alternative','ambition','ambulance','amendment','American','amount','analysis','analyst','Angel','anger','Angle','animal','anniversary','announcement','answer','anxiety','apartment','appeal','appearance','appendix','apple','applicant','application','appointment','approach','approval','archbishop','architect','architecture','area','argument','arm','Army','arrangement','arrest','arrival','art','article','artist','aspect','Assault','assembly','assessment','asset','assignment','assistance','assistant','association','Assumption','assurance','atmosphere','attack','attempt','attendance','attention','attitude','attraction','audience','audit','auditor','aunt','author','authority','autonomy','autumn','availability','avenue','average','award','awareness','baby','back','background','bag','Balance','Ball','BAN','band','bank','banking','BAR','barrier','basket','bastard','Bath','bathroom','battery','battle','bay','beach','beam','bean','bear','beauty','bed','bedroom','beer','beginning','behaviour','being','belief','Bell','belt','Bench','benefit','Bible','bid','bike','bill','billion','bird','birth','birthday','bishop','bit','Black','blade','blanket','block','blood','blow','blue','board','boat','body','bomb','Bond','bone','bonus','Book','boom','boot','border','borough','boss','bottle','bottom','boundary','bowl','box','boy','brain','branch','brand','breach','bread','break','breakfast','breast','breath','breed','brick','bridge','bronze','Brother','brush','budget','builder','building','bulk','burden','bureau','bus','Bush','business','businessman','butter','button','buyer','cab','cabinet','cable','cake','calculation','Call','camera','camp','campaign','canal','Cancer','candidate','cap','capability','capacity','Capital','capitalism','captain','car','carbon','card','care','career','carpet','carriage','carrier','case','Cash','castle','casualty','CAT','catalogue','category','cathedral','cause','ceiling','celebration','cell','Centre','century','ceremony','certificate','Chain','chair','chairman','challenge','chamber','Champagne','champion','championship','chance','Chancellor','change','channel','chap','chapel','chapter','character','characteristic','charge','charity','chart','charter','check','cheek','cheese','chemical','cheque','chest','chicken','chief','child','childhood','chip','chocolate','choice','Christian','church','cigarette','cinema','circle','circuit','circumstance','citizen','city','claim','clash','class','classification','classroom','clause','Clay','clerk','client','cliff','climate','clinic','clock','closure','cloth','clothing','cloud','club','clue','Cm','CO','coach','coal','coalition','coast','coat','code','coffee','coin','cold','collapse','colleague','collection','collector','college','colonel','Colony','colour','column','combination','comfort','command','commander','comment','commission','commissioner','commitment','committee','commonwealth','communication','community','companion','company','comparison','compensation','competition','competitor','complaint','completion','complex','complexity','component','composition','compound','compromise','computer','concentration','concept','conception','concern','concert','concession','conclusion','condition','conduct','conference','confidence','conflict','confusion','Congress','connection','consciousness','consent','consequence','conservation','Conservative','consideration','Constable','constituency','constituent','Constitution','constraint','construction','consultant','consultation','consumer','consumption','contact','content','contest','context','Continent','contract','contrast','contribution','control','controversy','convention','conversation','conversion','conviction','copper','copy','CORE','corner','corp','corporation','correlation','correspondent','corridor','cost','cottage','cotton','council','councillor','count','counter','counterpart','country','county','coup','couple','course','Court','cousin','cover','coverage','cow','crack','craft','crash','cream','Creation','creature','credit','creditor','crew','cricket','crime','crisis','criterion','critic','criticism','crop','Cross','crowd','Crown','cry','crystal','culture','cup','cupboard','currency','curriculum','curtain','curve','custom','customer','cut','cycle','dad','daddy','damage','dance','danger','dark','darkness','Darling','data','database','date','daughter','Day','deal','dealer','Death','debate','debt','decade','decision','deck','declaration','decline','defeat','defence','defendant','defender','deficit','definition','degree','delay','delegate','delegation','delight','delivery','demand','democracy','Democrat','demonstration','density','department','departure','deposit','Depression','depth','deputy','description','desert','design','designer','desire','desk','destruction','detail','detective','determination','developer','development','device','Devil','diagnosis','diagram','dialogue','diamond','diary','dictionary','diet','difference','difficulty','dimension','dinner','direction','directive','director','directory','disability','disadvantage','disappointment','disaster','disc','discipline','discount','discourse','discovery','discretion','discrimination','discussion','disease','dish','disk','dismissal','disorder','display','disposal','dispute','distance','distinction','distribution','district','dividend','division','divorce','dock','Doctor','doctrine','document','dog','dollar','domain','door','doorway','dose','doubt','dozen','draft','drama','drawing','dream','dress','drink','drive','driver','drop','drug','duck','duke','duration','dust','duty','eagle','ear','earl','Earth','Easter','economy','edge','edition','editor','Education','effect','efficiency','effort','egg','election','electricity','element','emergency','emission','emotion','emperor','Empire','employee','employer','employment','end','enemy','Energy','engagement','engine','engineer','engineering','English','enquiry','enterprise','entertainment','enthusiasm','entity','entrance','entry','envelope','environment','episode','equation','equipment','equity','equivalent','ERA','error','escape','essay','essence','establishment','estate','estimate','evaluation','evening','event','evidence','evolution','examination','example','exception','exchange','excitement','exclusion','excuse','execution','executive','exercise','exhibition','existence','expansion','expectation','expenditure','expense','experience','experiment','expert','expertise','explanation','explosion','export','exposure','expression','extension','extent','eye','fabric','face','facility','fact','factor','factory','failure','faith','Fall','family','fan','fantasy','farm','Farmer','fashion','fat','fate','Father','fault','favour','favourite','fear','feature','federation','fee','feeling','fellow','female','fence','festival','fibre','fiction','field','FIG','fight','fighting','figure','file','film','filter','final','finance','finding','finger','finish','fire','firm','Fish','fishing','flag','flame','flat','fleet','flesh','flexibility','flight','floor','flow','flower','fluid','focus','folk','food','fool','foot','football','force','forest','form','format','formation','formula','fortune','forum','foundation','fraction','fragment','frame','framework','fraud','freedom','French','frequency','Friend','friendship','front','fruit','fuel','function','fund','funding','funeral','furniture','future','gain','gallery','game','gang','gap','garage','garden','gas','gate','gaze','gear','gender','gene','general','generation','gentleman','German','gesture','ghost','gift','girl','glance','glass','glory','go','goal','God','gold','golf','good','government','governor','grade','graduate','grain','grammar','Grant','Grass','grave','Green','grip','ground','group','growth','guarantee','guard','guardian','Guest','guide','guideline','guilt','guitar','gun','Guy','habit','hair','half','Hall','hand','harbour','hardware','harm','hat','head','heading','health','hearing','heart','heat','Heaven','heel','height','Hell','help','heritage','Hero','hierarchy','Hill','hint','hip','historian','history','hold','holder','holding','hole','holiday','home','honour','Hope','horizon','horror','horse','hospital','Host','hotel','hour','house','household','housing','human','humour','hundred','hunting','husband','hypothesis','ICE','idea','identification','identity','ideology','illness','illustration','image','imagination','impact','implementation','implication','import','importance','impression','improvement','incentive','inch','incidence','incident','income','increase','index','indication','indicator','individual','industry','infant','infection','inflation','influence','information','ingredient','initiative','injury','inn','innovation','input','inquiry','insect','insight','inspection','inspector','installation','instance','instinct','institute','institution','instruction','instrument','insurance','integration','intelligence','intention','interaction','interest','interface','Interior','interpretation','interval','intervention','interview','introduction','invasion','investigation','investment','investor','invitation','involvement','iron','island','isle','isolation','issue','item','jacket','jet','Jew','Job','joke','journal','journalist','journey','joy','judge','judgement','judgment','juice','junction','jurisdiction','jury','Justice','justification','Key','Kid','killer','kind','King','kingdom','kiss','kit','kitchen','knee','knife','knowledge','label','laboratory','Labour','lad','Lady','lake','lamp','Land','landing','landlord','landscape','lane','language','laugh','launch','law','lawyer','layer','lead','leader','leadership','leaf','leaflet','league','learning','lease','leather','leave','lecture','left','leg','legislation','leisure','length','lesson','letter','level','liability','liberation','liberty','library','licence','Lie','life','lifespan','lifetime','lift','Light','limit','limitation','line','link','Lion','lip','list','literature','living','load','loan','local','location','lock','logic','look','Lord','lorry','loss','Lot','love','lover','loyalty','luck','lunch','lung','machine','machinery','magazine','magistrate','mail','majority','Maker','Male','Man','management','manager','manner','manufacturer','map','margin','Mark','market','marketing','marriage','Mass','master','match','mate','material','matter','mayor','meal','meaning','measure','measurement','meat','mechanism','medicine','medium','meeting','member','membership','memory','menu','merchant','merger','merit','mess','message','metal','method','metre','middle','midnight','mile','Milk','Mill','million','mind','mine','miner','mineral','minimum','minister','ministry','minority','minute','mirror','Miss','missile','mission','mistake','Mister','mixture','mm','mode','model','modification','module','molecule','moment','money','Monopoly','month','mood','Moon','morning','mortality','mortgage','mother','motion','motivation','motive','motor','mountain','mouse','mouth','move','movement','movie','mud','mum','mummy','murder','muscle','museum','music','musician','mystery','myth','nail','name','Nation','nature','Navy','necessity','neck','need','needle','negotiation','neighbour','nerve','nest','net','network','newspaper','Night','nightmare','noise','norm','nose','note','notice','notion','novel','number','nurse','nursery','oak','object','objection','objective','obligation','observation','observer','occasion','occupation','ocean','offence','offender','offer','office','officer','official','oil','opening','Opera','operation','operator','opinion','opponent','opportunity','Opposition','option','Order','organ','organisation','organism','organization','origin','other','outcome','outline','output','owner','ownership','oxygen','pace','pack','package','packet','Page','pain','paint','painter','painting','pair','palace','palm','panel','panic','paper','paragraph','parent','parish','Park','parliament','part','participant','participation','particle','partner','partnership','party','pass','passage','passenger','Passion','past','patch','path','patient','pattern','pause','pavement','payment','peace','peak','peasant','pen','penalty','pension','pensioner','people','percent','percentage','perception','performance','period','permission','person','personality','personnel','perspective','PET','petrol','phase','phenomenon','philosophy','phone','photo','photograph','phrase','piano','picture','piece','pig','pile','pilot','pipe','pit','pitch','pity','place','plaintiff','plan','plane','planet','plant','plastic','plate','platform','play','player','pleasure','plot','pocket','poem','poet','poetry','point','Pole','police','policeman','policy','politician','poll','pollution','polytechnic','pond','pool','pop','Pope','population','port','portfolio','portrait','position','possession','possibility','Post','pot','potato','potential','Pound','power','practice','practitioner','prayer','preference','pregnancy','premise','premium','preparation','presence','present','presentation','President','press','pressure','Price','pride','priest','prince','princess','principle','print','printer','priority','prison','prisoner','privilege','prize','probability','problem','procedure','proceeding','process','processor','producer','product','production','productivity','profession','professional','professor','profile','profit','program','programme','project','promise','promotion','proof','property','proportion','proposal','proposition','prosecution','prospect','protection','protein','protest','province','provision','psychology','pub','public','publication','publisher','punishment','pupil','purchase','purchaser','purpose','qualification','quality','quantity','quarter','queen','question','rabbit','race','radiation','radio','raid','rail','railway','rain','range','rank','rape','rat','rate','ratio','reaction','reader','Reading','reality','reason','Rebel','receipt','receiver','reception','recession','recipe','recognition','recommendation','record','recording','recovery','Red','reduction','redundancy','ref','reference','reflection','reform','refugee','refusal','regime','region','register','registration','regulation','reign','relation','relationship','relative','release','relief','religion','remark','remedy','removal','rent','repair','replacement','reply','report','reporter','representation','representative','republic','reputation','request','requirement','research','researcher','reserve','residence','resident','resignation','resistance','resolution','resort','resource','respect','response','responsibility','rest','restaurant','Restoration','restriction','result','retirement','return','revenue','review','revolution','reward','rhythm','ride','right','ring','riot','rise','risk','rival','river','road','Rock','rod','role','roll','roof','room','root','rope','rose','round','route','routine','row','rubbish','rule','rumour','run','running','safety','sake','salary','SALT','sample','Sand','sandwich','satellite','satisfaction','saving','scale','scandal','scene','schedule','scheme','scholar','school','science','scientist','scope','score','screen','sculpture','sea','search','season','seat','second','secret','secretary','section','sector','security','seed','selection','self','seller','seminar','sensation','sense','sentence','separation','sequence','sergeant','servant','server','Service','session','Set','setting','settlement','sex','shade','shadow','shame','SHAPE','share','shareholder','sheep','sheet','shelf','shell','shift','ship','shirt','shit','shock','shoe','shop','shopping','shore','shortage','shot','shoulder','show','shower','side','sight','sign','signal','significance','silence','silk','silver','Sin','Singer','Sir','Sister','site','situation','size','skill','skin','skirt','sky','sleep','slope','smell','smile','smoke','Snow','society','sociology','soil','soldier','solicitor','solution','Son','Song','sort','soul','sound','source','South','space','Speaker','specialist','specification','specimen','spectrum','speculation','speech','speed','spell','spending','sphere','spirit','spokesman','sport','spot','spread','spring','squad','square','stability','staff','stage','stairs','stake','stance','stand','standard','standing','star','start','State','statement','station','statute','steam','steel','step','stick','stimulus','stock','stomach','Stone','stop','storage','store','storm','story','strain','stranger','strategy','stream','street','strength','stress','strike','string','strip','stroke','structure','struggle','student','studio','study','stuff','style','subject','subsidiary','subsidy','substance','success','succession','successor','sugar','suggestion','suicide','suit','sum','summary','summer','summit','Sun','supplier','supply','support','supporter','surface','surgery','surprise','survey','survival','suspicion','swimming','switch','sword','symbol','sympathy','symptom','system','table','tactic','tail','tale','talent','talk','tank','tape','target','task','taste','tax','taxation','taxi','tea','teacher','teaching','team','tear','technique','technology','teenager','telephone','television','temperature','temple','tenant','tendency','tension','term','terrace','territory','test','testing','text','theatre','theft','theme','theory','therapy','thesis','thing','thinking','thought','thousand','threat','throat','ticket','tide','tie','timber','time','timing','tin','tip','tissue','title','toilet','tone','tongue','tonne','tool','tooth','top','topic','Tory','total','touch','tour','tourist','tournament','tower','Town','toy','trace','track','trade','trader','trading','tradition','traffic','tragedy','train','trainer','training','transaction','transfer','transformation','transition','transport','travel','traveller','tray','Treasury','treatment','treaty','Tree','trend','trial','tribunal','trick','trip','triumph','troop','trouble','truck','trust','trustee','Truth','tube','tune','tunnel','turn','turnover','tutor','Twin','type','uncertainty','uncle','understanding','uniform','Union','unit','unity','universe','university','UNIX','use','user','valley','value','van','variable','variation','variety','vegetable','vehicle','vendor','venture','verse','version','vessel','victim','victory','video','view','Villa','Village','violence','virtue','virus','vision','visit','visitor','voice','volume','Volunteer','vote','voter','wage','walk','wall','war','Ward','warmth','warning','waste','watch','water','Wave','way','weakness','weapon','weather','wedding','week','weekend','weight','welfare','wheel','while','whisky','White','whole','widow','wife','will','win','wind','window','wine','wing','winner','winter','wire','wish','withdrawal','witness','woman','wonder','Wood','wool','Word','work','worker','working','workshop','world','worry','Worth','wound','writer','writing','yard','year','youngster','youth','zone'];
+
+      var codename = function() {
+        var color;
+        var noun;
+        do {
+          color = colors[Math.floor(Math.random()*colors.length)];
+          noun = nouns[Math.floor(Math.random()*nouns.length)];
+        } while (color.n.toUpperCase() === noun.toUpperCase())
+
+        var element = document.getElementById("codename");
+        var button = document.getElementById("create-button")
+        element.innerText = color.n.toUpperCase() + " " + noun.toUpperCase();
+        element.style.background = color.c;
+        button.style.background = color.c;
+        element.className = "codeword " + darkOrLight(color.c);
+        button.className = "create-button " + darkOrLight(color.c);
+      }
+
+      // from http://stackoverflow.com/questions/5650924/javascript-color-contraster
+      var darkOrLight = function(hex) {
+        var rgb = hexToRgb(hex);
+
+        var brightness;
+        brightness = (rgb.r * 299) + (rgb.g * 587) + (rgb.b * 114);
+        brightness = brightness / 255000;
+
+        // values range from 0 to 1
+        // anything greater than 0.5 should be bright enough for dark text
+        if (brightness >= 0.5) {
+          return "dark-text";
+        } else {
+          return "light-text";
+        }
+      }
+
+      // from http://stackoverflow.com/questions/5623838/rgb-to-hex-and-hex-to-rgb
+      var hexToRgb = function(hex) {
+        var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+        return result ? {
+          r: parseInt(result[1], 16),
+          g: parseInt(result[2], 16),
+          b: parseInt(result[3], 16)
+        } : null;
+      }
+
+    </script>
+    <style>
+      body {
+        font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+      }
+
+      .codeword {
+        font-size: 45px;
+        padding: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: center;
+        width: 65%;
+        align-items: center;
+      }
+
+      .dark-text {
+        color: #000000;
+      }
+
+      .light-text {
+        color: #FFFFFF;
+      }
+
+      .text {
+        font-size: 20px;
+        padding: 15px;
+        line-height: 1.25em;
+      }
+
+      /* http://tobiasahlin.com/blog/css-trick-animating-link-underlines/ */
+      .text > a {
+        position: relative;
+        text-decoration: none;
+        color: #0000FF;
+      }
+
+      .text > a:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        bottom: 0;
+        left: 0;
+        background-color: #0000FF;
+        visibility: hidden;
+        -webkit-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transition: all 0.3s ease-in-out 0s;
+        transition: all 0.3s ease-in-out 0s;
+      }
+
+      .text > a:hover:before {
+        visibility: visible;
+        -webkit-transform: scaleX(1);
+        transform: scaleX(1);
+      }
+
+      .create-button {
+        border: none;
+        display: block;
+        font-size: 20px;
+        padding: 10px 15px 10px 15px;
+        text-decoration: none;
+      }
+
+      .button-container {
+        display:flex;
+        justify-content:center;
+        align-items:center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="codeword light-text" id="codename" style="background-color: #3AA655">NIGHTMARE GREEN</h1>
+
+    <div class="text">
+      I just finished reading <a href="http://www.antipope.org/charlie/blog-static/index.html">Charles Stross</a>' latest Laundry Files book, <a rel="nofollow" href="http://www.amazon.com/gp/product/0425281175/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0425281175&linkCode=as2&tag=miker06-20&linkId=CNCCZJUGZDPOBV7Z"><i>The Annihilation Score</i></a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=miker06-20&l=as2&o=1&a=0425281175" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />, and remembered how much I love <a href="https://en.wikipedia.org/wiki/List_of_Rainbow_Codes">Rainbow Codes</a>. Of course, it turns out Charlie uses them wrong, but I'll give him a pass because NIGHTMARE GREEN sounds a lot better then GREEN NIGHTMARE. So next time you're building a project, instead of reaching for the overused <a href="https://github.com/search?q=zeus&ref=searchresults&type=Repositories&utf8=✓">Greek</a> or <a href="https://github.com/search?utf8=✓&q=mars&type=Repositories&ref=searchresults">Roman</a> pantheon, come here and get something unique and cool.
+    </div>
+
+    <div class="button-container"style="">
+      <a href="#" id="create-button" class="create-button light-text" style="background-color: #3AA655" onclick="codename(); return false;">Create a Codename</a>
+    </div>
+  </body>
+</html>
