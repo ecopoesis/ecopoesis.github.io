@@ -55,15 +55,36 @@
         font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
       }
 
-      .codeword {
-        font-size: 45px;
-        padding: 25px;
-        margin-left: auto;
-        margin-right: auto;
+      .codeword-container {
+        padding: 0px;
+        margin: 0px;
         display: flex;
         justify-content: center;
-        width: 65%;
         align-items: center;
+      }
+
+      @media(max-width: 414px) {
+        .codeword {
+          margin: 0px;
+          padding: 25px;
+          display: flex;
+          justify-content: center;
+          width: 100%;
+          align-items: center;
+          text-align: center;
+        }
+      }
+
+      @media(min-width: 415px) {
+        .codeword {
+          margin: 0px;
+          padding: 25px;
+          display: flex;
+          justify-content: center;
+          width: 65%;
+          align-items: center;
+          text-align: center;
+        }
       }
 
       .dark-text {
@@ -74,8 +95,27 @@
         color: #FFFFFF;
       }
 
+      @media(max-width: 320px) {
+        .text {
+          font-size: 15px;
+        }
+
+        .codeword {
+          font-size: 35px;
+        }
+      }
+
+      @media(min-width: 321px) {
+        .text {
+          font-size: 20px;
+        }
+
+        .codeword {
+          font-size: 45px;
+        }
+      }
+
       .text {
-        font-size: 20px;
         padding: 15px;
         line-height: 1.25em;
       }
@@ -117,20 +157,22 @@
       }
 
       .button-container {
-        display:flex;
-        justify-content:center;
-        align-items:center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
     </style>
   </head>
   <body>
-    <h1 class="codeword light-text" id="codename" style="background-color: #3AA655">NIGHTMARE GREEN</h1>
+    <div class="codeword-container">
+      <h1 class="codeword light-text" id="codename" style="background-color: #3AA655">NIGHTMARE GREEN</h1>
+    </div>
 
     <div class="text">
       I just finished reading <a href="http://www.antipope.org/charlie/blog-static/index.html">Charles Stross</a>' latest Laundry Files book, <a rel="nofollow" href="http://www.amazon.com/gp/product/0425281175/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0425281175&linkCode=as2&tag=miker06-20&linkId=CNCCZJUGZDPOBV7Z"><i>The Annihilation Score</i></a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=miker06-20&l=as2&o=1&a=0425281175" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />, and remembered how much I love <a href="https://en.wikipedia.org/wiki/List_of_Rainbow_Codes">Rainbow Codes</a>. Of course, it turns out Charlie uses them wrong, but I'll give him a pass because NIGHTMARE GREEN sounds a lot better then GREEN NIGHTMARE. So next time you're building a project, instead of reaching for the overused <a href="https://github.com/search?q=zeus&ref=searchresults&type=Repositories&utf8=✓">Greek</a> or <a href="https://github.com/search?utf8=✓&q=mars&type=Repositories&ref=searchresults">Roman</a> pantheon, come here and get something unique and cool.
     </div>
 
-    <div class="button-container"style="">
+    <div class="button-container">
       <a href="#" id="create-button" class="create-button light-text" style="background-color: #3AA655" onclick="codename(); return false;">Create a Codename</a>
     </div>
   </body>
